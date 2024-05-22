@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GitRepositoryDemoApplication {
 
 	public static void main(String[] args) {
+	System.out.println("entered into GitRepositoryDemoApplication");
 		SpringApplication.run(GitRepositoryDemoApplication.class, args);
 	}
 
